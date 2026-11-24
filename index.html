@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikey — Software Developer</title>
-    <meta name="description" content="Mikey is a full-stack software developer (C# .NET, PHP, Java/Android) with a background in systems and network engineering, and hands-on experience with local LLMs.">
-    <meta name="theme-color" content="#05030f">
+    <meta name="description" content="Mikey is a full-stack software developer (C# .NET, PHP, Java/Android) with a background in IT support and repair, and hands-on experience with local LLMs.">
+    <meta name="theme-color" content="#050a18">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
 
-<header class="site-header" id="top">
+<header class="site-header">
     <div class="wrap header-inner">
         <a href="#top" class="logo">Mikey<span>.</span></a>
         <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
@@ -63,7 +63,7 @@
                 <img src="main.jpg" alt="Portrait of Mikey">
             </div>
             <div class="float-card c1"><i class="fa-solid fa-code"></i><div><strong>10+ yrs</strong><span>practical programming</span></div></div>
-            <div class="float-card c2"><i class="fa-solid fa-server"></i><div><strong>6+ yrs</strong><span>systems &amp; networks</span></div></div>
+            <div class="float-card c2"><i class="fa-solid fa-server"></i><div><strong>6+ yrs</strong><span>IT support &amp; repair</span></div></div>
 
         </div>
     </div>
@@ -74,7 +74,7 @@
     <div class="wrap stats-grid">
         <div class="stat reveal"><strong>5</strong><span>features shipped as a trainee at SSCGI</span></div>
         <div class="stat reveal"><strong>10+</strong><span>years of practical programming</span></div>
-        <div class="stat reveal"><strong>6+</strong><span>years in systems &amp; networks</span></div>
+        <div class="stat reveal"><strong>6+</strong><span>years in IT support &amp; repair</span></div>
         <div class="stat reveal"><strong>2</strong><span>TESDA NC certifications</span></div>
     </div>
 </section>
@@ -82,22 +82,24 @@
 <!-- ============ ABOUT ============ -->
 <section class="section" id="about">
     <div class="wrap">
-        <header class="section-head reveal">
-            <p class="kicker">About</p>
-            <h2>From keeping systems alive to building them</h2>
-        </header>
+        <p class="kicker">About</p>
         <div class="about-grid">
             <div class="about-copy reveal">
+                <header class="section-head reveal">
+                    <h2>From keeping systems alive to building them</h2>
+                </header>
                 <p>I started out as a self-taught programmer. After leaving college, I kept building: payroll, library, delivery-monitoring and POS accounting systems, plus web and mobile apps for students and small businesses, all full-stack and all on my own.</p>
-                <p>I then spent 6+ years as a <strong>Computer &amp; Network Technician</strong>, working with Active Directory, DNS, Group Policy, server configuration, remote deployment and POS support. That background means I understand how software behaves once it is deployed, on real networks, with real users.</p>
-                <p>In 2026 I joined <strong>SSCGI as a Software Development Trainee</strong> and worked on live systems in C# ASP.NET MVC, PHP/MySQL and Android. Today I'm looking for a full-time software developer role where I can keep building, shipping and learning.</p>
+                <p>I then spent 6+ years in IT support and repair: PC and laptop troubleshooting, OS and application installation, network installation and troubleshooting, and later POS hardware and network setup.</p>
+                <p>At Compuware POS Systems I spent two years in technical support, then asked my manager to take me on as a programmer too, so I could get real development experience. In 2026 I joined <strong>SSCGI as a Software Development Trainee</strong>  and worked on live systems in C# ASP.NET MVC, PHP/MySQL and Android. Today I'm looking for a full-time software developer role where I can keep building, shipping and learning.</p>
             </div>
             <aside class="about-card reveal">
                 <h3>Credentials</h3>
                 <ul class="check-list">
-                    <li><i class="fa-solid fa-certificate"></i><div><strong>Programming (Java) NC III</strong><span>TESDA</span></div></li>
-                    <li><i class="fa-solid fa-certificate"></i><div><strong>Computer Systems Servicing NC II</strong><span>TESDA</span></div></li>
-                    <li><i class="fa-solid fa-graduation-cap"></i><div><strong>Pluralsight learning paths</strong><span>ASP.NET · C# · SQL Server · React</span></div></li>
+                    <li><i class="fa-solid fa-certificate"></i><div><strong>Programming (Java) NC III</strong><span>TESDA · Jun 2025</span></div></li>
+                    <li><i class="fa-solid fa-certificate"></i><div><strong>Computer Systems Servicing NC II</strong><span>TESDA · Nov 2022 · covers server configuration (AD DS, DNS, GPO)</span></div></li>
+                    <li><i class="fa-solid fa-certificate"></i><div><strong>Google Technical Support Fundamentals</strong><span>Coursera · Dec 2022</span></div></li>
+                    <li><i class="fa-solid fa-certificate"></i><div><strong>AWS Cloud Practitioner</strong><span>Training badge · Aug 2025</span></div></li>
+                    <li><i class="fa-solid fa-graduation-cap"></i><div><strong>Pluralsight learning paths (2026)</strong><span>ASP.NET Core Web API · C# &amp; LINQ · SQL Server · React</span></div></li>
                 </ul>
             </aside>
         </div>
@@ -120,55 +122,68 @@
                     <h3>Software Development Trainee <em>· Systems and Software Consulting Group</em></h3>
                     <p class="job-summary">Contributed to live projects end to end, working mainly in the company's C# .NET stack and across legacy PHP and Android codebases.</p>
                     <ul>
-                        <li>Built a <strong>new module for the in-house inventory system</strong> using C# ASP.NET MVC and Entity Framework.</li>
-                        <li>Led the <strong>API integration</strong> of an emergency-response API into an existing PHP/MySQL production system.</li>
-                        <li>Developed a companion <strong>Android app (Java) for smartwatches</strong> that detects hard falls and abnormal heart-rate alerts, delivered as a working demo for a partner presentation.</li>
-                        <li>Created an <strong>AI chatbot on a local LLM</strong> (LM Studio) that answers questions by querying the incident database.</li>
-                        <li>Led the <strong>UI modernization</strong> of a legacy PHP interface, turning a design prototype into a working front end connected to the database.</li>
+                        <li>Built a <strong>new module for the in-house inventory system</strong> using C# ASP.NET MVC and Entity Framework, as a part of training exercise for the company's deployment program.</li>
+                        <li>Led an <strong>API integration</strong> into an existing PHP/MySQL Emergency Response System, improving real-time incident handling.</li>
+                        <li>Built a companion <strong>Android app (Java)</strong> linked to wearable smartwatches for automatic hard-fall and heart-rate emergency detection, delivered as a working version in time for a partner demonstration.</li>
+                        <li>Developed an <strong>AI chatbot powered by a local LLM</strong> that can query the incident database and answer questions about events.</li>
+                        <li>Led a significant <strong>UI modernization</strong> of the legacy PHP interface, delivering substantial functional progress before departure.</li>
                     </ul>
                     <p class="chips"><b>C# .NET</b><b>ASP.NET MVC</b><b>Entity Framework</b><b>PHP</b><b>MySQL</b><b>Java</b><b>Android</b><b>LM Studio</b></p>
                 </div>
             </article>
 
             <article class="job reveal">
-                <div class="job-meta"><span class="period">2023 – 2026</span><span class="tag">Hybrid role</span></div>
+                <div class="job-meta"><span class="period">Aug 2025 – May 2026</span><span class="tag">Hybrid role</span></div>
                 <div class="job-body">
-                    <h3>Associate Programmer / Technical Support Engineer <em>· Compuware POS</em></h3>
-                    <p class="job-summary">Split my time between supporting customers and writing software for the same product line.</p>
+                    <h3>Associate Programmer <em>· Compuware POS Systems</em></h3>
+                    <p class="job-summary">After more than two years in technical support, I offered to take on a "second hat" as a programmer, primarily to get software development experience with plans to pursue this career path. I was given programming tasks to lighten the developers' load, and I worked both roles at the same time.</p>
                     <ul>
-                        <li>Rebuilt the company's <strong>POS mall-sales interface</strong> in C# / .NET, replacing an aging VB6 tool (details in Projects below).</li>
-                        <li>Developed a C# .NET interface for POS sales data and updated a legacy mail system.</li>
-                        <li>Handled hardware and network setup and <strong>PXE-based deployment</strong> for client sites.</li>
+                        <li>Redesigned one of the company's <strong>legacy mall interfaces</strong>, which transmits tenant POS sales to the mall system.</li>
+                        <li>Built a <strong>C# .NET interface</strong> that retrieves POS sales and converts them into formatted text files for mall integration. The solution is live with an active client.</li>
                     </ul>
-                    <p class="chips"><b>C# .NET</b><b>VB6 → C#</b><b>POS</b><b>PXE</b><b>Networking</b></p>
+                    <p class="chips"><b>C# .NET</b><b>VB6 → C#</b><b>POS</b></p>
                 </div>
             </article>
 
             <article class="job reveal">
-                <div class="job-meta"><span class="period">6+ years</span><span class="tag">IT infrastructure</span></div>
+                <div class="job-meta"><span class="period">Feb 2023 – May 2026</span><span class="tag">Technical support</span></div>
+                <div class="job-body">
+                    <h3>Technical Support Engineer <em>· Compuware POS Systems</em></h3>
+                    <p class="job-summary">Worked as an IT support for POS systems, serving as extension to my hardware and network troubleshooting experience. At the same time, broadened my understanding on  POS software, separating what works on actual real-life operation from concepts.</p>
+                    <ul>
+                        <li>Installed and configured POS hardware and networks for clients, and resolved complex hardware, network and software issues.</li>
+                        <li>Wrote basic scripts for POS maintenance.</li>
+                        <li>Pioneered <strong>remote Windows installation</strong> for POS stations connected to a file server, using <strong>PXE</strong> and a pre-configured ISO.</li>
+                    </ul>
+                    <p class="chips"><b>POS</b><b>PXE</b><b>Windows deployment</b><b>Scripting</b><b>Networking</b></p>
+                </div>
+            </article>
+
+            <article class="job reveal">
+                <div class="job-meta"><span class="period">Aug 2018 – 2023</span><span class="tag">Self-employed · part-time</span></div>
                 <div class="job-body">
                     <h3>Computer &amp; Network Technician</h3>
-                    <p class="job-summary">Hands-on systems work that gave me a practical understanding of how software runs in production.</p>
+                    <p class="job-summary">Hands-on PC and laptop work, which developed my troubleshooting skills.</p>
                     <ul>
-                        <li>Installed and maintained computer systems and troubleshot networks.</li>
-                        <li>Configured servers, including <strong>Active Directory, DNS and Group Policy (GPO)</strong>.</li>
-                        <li>Ran remote deployment solutions and supported Compuware POS systems.</li>
+                        <li>Troubleshot and repaired PCs and laptops, including hardware replacements.</li>
+                        <li>Reformatted operating systems and installed applications.</li>
+                        <li>Handled network installation and troubleshooting.</li>
                     </ul>
-                    <p class="chips"><b>Active Directory</b><b>DNS</b><b>GPO</b><b>Server config</b><b>Remote deployment</b></p>
+                    <p class="chips"><b>Hardware repair</b><b>OS installation</b><b>Networking</b></p>
                 </div>
             </article>
 
             <article class="job reveal">
-                <div class="job-meta"><span class="period">2014 – 2022</span><span class="tag">Self-employed</span></div>
+                <div class="job-meta"><span class="period">Sep 2014 – Mar 2022</span><span class="tag">Self-employed</span></div>
                 <div class="job-body">
                     <h3>Freelance Programmer</h3>
-                    <p class="job-summary">After leaving college, I built and sold custom systems, which became my main source of income and my real education.</p>
+                    <p class="job-summary">After leaving college, I built and sold custom systems for small businesses and college thesis projects, which became my main source of income and my real education.</p>
                     <ul>
-                        <li>Delivered full-stack systems (backend, frontend and database) for student thesis/capstone projects and small-business ideas.</li>
-                        <li>Projects included payroll, library management, delivery monitoring, POS accounting, and web and mobile apps.</li>
-                        <li>Worked across Java, PHP, C#/.NET, Visual Basic, MySQL and JavaDB, always scoped to deadline and budget.</li>
+                        <li>Built payroll, library management and POS accounting systems in <strong>Java, VB6 and C#</strong>.</li>
+                        <li>Built <strong>PHP</strong> websites and <strong>Android</strong> mobile apps backed by databases.</li>
+                        <li>Worked full-stack (backend, frontend and database) on my own.</li>
                     </ul>
-                    <p class="chips"><b>Java</b><b>PHP</b><b>C#</b><b>VB</b><b>MySQL</b><b>JavaDB</b><b>Android</b></p>
+                    <p class="chips"><b>Java</b><b>VB6</b><b>C#</b><b>PHP</b><b>Android</b><b>MySQL</b><b>JavaDB</b></p>
                 </div>
             </article>
 
@@ -188,7 +203,7 @@
             <div class="skill-card reveal">
                 <i class="fa-solid fa-laptop-code"></i>
                 <h3>Programming &amp; Web</h3>
-                <p class="chips"><b>C#</b><b>ASP.NET MVC</b><b>Entity Framework</b><b>PHP</b><b>Java</b><b>Android</b><b>JavaScript</b><b>HTML / CSS</b></p>
+                <p class="chips"><b>C#</b><b>ASP.NET MVC</b><b>Entity Framework</b><b>PHP</b><b>Java</b><b>Android</b><b>JavaScript</b><b>C++</b><b>Visual Basic</b><b>HTML / CSS</b></p>
             </div>
             <div class="skill-card reveal">
                 <i class="fa-solid fa-robot"></i>
@@ -199,12 +214,13 @@
             <div class="skill-card reveal">
                 <i class="fa-solid fa-database"></i>
                 <h3>Databases</h3>
-                <p class="chips"><b>MySQL</b><b>SQL Server</b><b>SQLite</b><b>JavaDB (Derby)</b></p>
+                <p class="chips"><b>SQL Server</b><b>MySQL</b><b>SQLite</b><b>JavaDB (Derby)</b><b>Oracle</b></p>
             </div>
             <div class="skill-card reveal">
                 <i class="fa-solid fa-network-wired"></i>
-                <h3>Systems &amp; Infrastructure</h3>
-                <p class="chips"><b>Network troubleshooting</b><b>Active Directory</b><b>GPO</b><b>DNS</b><b>PXE deployment</b><b>Multi-OS</b></p>
+                <h3>Troubleshooting &amp; Systems</h3>
+                <p class="chips"><b>PC &amp; laptop troubleshooting</b><b>OS installation</b><b>Network installation</b><b>PXE / remote Windows deployment</b><b>Windows · Linux · macOS</b></p>
+                <p class="note">Trained in server configuration (Active Directory, DNS, Group Policy) through TESDA Computer Systems Servicing NC II.</p>
             </div>
         </div>
     </div>
@@ -227,7 +243,7 @@
             <div class="feature-body">
                 <p class="kicker small">Company project · Compuware POS Systems</p>
                 <h3>POS Mall Interface</h3>
-                <p>While working as a technical support engineer, I rebuilt the company's mall sales-transmission tool. The old interface was written in VB6, looked dated and failed often enough that tenants risked penalties from mall management when sales weren't sent for several days.</p>
+                <p>While working in a hybrid technical support and programming role, I rebuilt one of the company's mall sales-transmission tools. The old interface was written in VB6, looked dated and failed often enough that tenants risked penalties from mall management when sales weren't sent for several days.</p>
                 <p>The new version is built with <strong>C# and .NET Framework</strong> and has a cleaner UI. It fixes the old failure points, handles double sessions and out-of-sequence sending, can regenerate sales for a past date, and adds an <strong>auto-generate</strong> function that removed most of the support tickets about mall sending.</p>
                 <p class="chips"><b>C#</b><b>.NET Framework</b><b>Visual Studio</b></p>
             </div>
@@ -325,7 +341,7 @@
         <h3 class="subhead reveal">Just for fun</h3>
         <div class="cards two">
             <article class="card reveal">
-                <figure class="shot" data-zoom><img src="img/projects/websites/palusot/palusot%20(12).jpg" alt="Palusot.com concept site" loading="lazy"></figure>
+                <figure class="shot" data-zoom><img src="img/projects/websites/palusot/palusot%20(37).jpg" alt="Palusot.com concept site" loading="lazy"></figure>
                 <div class="card-body">
                     <h4>Palusot.com</h4>
                     <p>A joke concept site where users post tricky situations and others reply with their best "palusot" (excuses). Surprisingly complete, with registration, login and user posts.</p>
@@ -336,7 +352,7 @@
                 <figure class="shot" data-zoom><img src="img/projects/other%20projects/flames-1.png" alt="FLAMES game" loading="lazy"></figure>
                 <div class="card-body">
                     <h4>FLAMES Game</h4>
-                    <p>The classic name-matching game, with trickier-than-it-looks letter counting logic, later upgraded with hand-drawn graphics and animated crossing-out of letters.</p>
+                    <p>The classic name-matching game, with trickier-than-it-looks letter counting logic, later upgraded with hand-drawn graphics and crossing-out of letters.</p>
                     <p class="chips"><b>Java</b><b>Graphics2D</b></p>
                 </div>
             </article>
@@ -355,32 +371,34 @@
 
         <div class="approach-grid">
             <article class="approach-card reveal">
+                <i class="fa-solid fa-face-smile"></i>
+                <h3>Naturally playful, but serious about results</h3>
+                <p>I have a naturally playful and humorous personality, and I bring it into my work. Humor makes long projects easier and teams more positive. It's the reason palusot.com, a fully working system with a database, and the FLAMES game, whose matching-letters counting logic was trickier than it looks then later added hand-drawn graphics and crossing-out of letters, got finished. Both turned out far more complex than a joke project needs to be. Same story: I finished it because it was funny.</p>
+            </article>
+            <article class="approach-card reveal">
                 <i class="fa-solid fa-hammer"></i>
-                <h3>Comfortable building from scratch</h3>
+                <h3>Hard-coding / vanilla preference</h3>
                 <p>Learning through trial and error made me a vanilla-first developer. When I needed a graph in the POS system, I learned Java's Graphics2D and drew one myself instead of adding a charting library, and reused the same technique in the FLAMES game.</p>
                 <p>I'm not against libraries and frameworks. I use them wherever they make the team faster. Knowing how to build without them just means I understand what's happening underneath.</p>
             </article>
 
             <article class="approach-card reveal">
                 <i class="fa-solid fa-palette"></i>
-                <h3>Back-end strength, front-end growth</h3>
-                <p>I'm naturally stronger at back-end logic than at visual design. I've closed that gap by using GUI builders (NetBeans, Visual Studio, Android Studio), studying designs I admire, and iterating until it looks right.</p>
-                <p>These days I also pair that with AI-assisted workflows. At SSCGI I turned a design prototype into a working front end for a legacy PHP system, connected to its live database.</p>
+                <h3>Greatest challenge as a developer</h3>
+                <p>I'm naturally stronger at back-end logic than at visual design. I've closed that gap by using GUI builders (NetBeans for Java, the Visual Studio designer for C#, Android Studio's layout editor), studying designs I admire, and iterating until it looks right.</p>
+                <p>These days I also pair that with AI-assisted workflows. At SSCGI I turned a design prototype into a working front-end for a legacy PHP system, connected to its live database.</p>
             </article>
 
             <article class="approach-card reveal">
                 <i class="fa-solid fa-puzzle-piece"></i>
-                <h3>Challenges I enjoy</h3>
-                <p>I've delivered professional-looking sites to clients despite limited tooling, including a painful stretch of exporting Mobirise layouts into PHP projects by hand. Constraints push me to find workable solutions, and I genuinely enjoy the hard problems.</p>
+                <h3>Enjoying challenges</h3>
+                <p>In the past, when AI wasn't a thing yet, web development was hard because there's no equally good GUI builder.</p>
+                <p>I've delivered professional-looking sites to clients despite limited tooling, including a painful stretch of exporting Mobirise (a website builder tool) layouts into PHP projects by hand. Constraints push me to find workable solutions, and I genuinely enjoy the hard problems.</p>
             </article>
 
-            <article class="approach-card reveal">
-                <i class="fa-solid fa-face-smile"></i>
-                <h3>Playful, but serious about results</h3>
-                <p>Humor makes long projects easier and teams more positive. It's the reason Palusot.com and the FLAMES game exist, and both turned out more complex than a joke project needs to be.</p>
-            </article>
         </div>
     </div>
+
 </section>
 
 <!-- ============ CONTACT ============ -->
@@ -389,7 +407,7 @@
         <div class="contact-card reveal">
             <p class="kicker">Contact</p>
             <h2>Let's build something together</h2>
-            <p>I'm actively looking for a full-time Software Developer role. If you have a team that needs someone who can ship across the stack and understands how systems run in production, I'd love to talk.</p>
+            <p>I'm actively looking for a full-time Software Developer role. If you have a team that needs someone who can build across the stack and knows the support side of software from years of hands-on IT work, I'd love to talk.</p>
             <div class="contact-actions">
                 <a href="mailto:manapoles07@gmail.com" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> manapoles07@gmail.com</a>
                 <a href="https://www.linkedin.com/in/napsmichael/" class="btn btn-ghost" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
@@ -404,7 +422,7 @@
 <footer class="site-footer">
     <div class="wrap footer-inner">
         <p>&copy; 2026 Michael Angelo Napoles. All rights reserved.</p>
-        <a href="#">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+        <a href="#top">Back to top <i class="fa-solid fa-arrow-up"></i></a>
     </div>
 </footer>
 
